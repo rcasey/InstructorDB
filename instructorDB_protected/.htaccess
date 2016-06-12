@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile /home/cmcbrorg/cmcboulder.org/htaccess/.htpasswd
+AuthName "Instructor DB Area"
+require user admin council bms instruct

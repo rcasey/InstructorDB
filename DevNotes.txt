@@ -1,0 +1,12 @@
+Notes on development of the Instructor Database
+
+26-apr-2016:
+- resumed work on the Delete link in the Instructor Admin List
+27-apr:
+- working on deleting instructor record...will need to cascade delete all
+  related recs, (but only one table, instructors_have_classes)
+6-may:
+- feature requests from Gretche: add Sport, Trad data attributes to Instuctor table; put into the edit form
+- feature requests from Karen B: add a text field to Instructors, for 'Additional skills'
+
+
