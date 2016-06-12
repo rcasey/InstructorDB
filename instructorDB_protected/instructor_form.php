@@ -109,11 +109,16 @@
         </tr>
         <tr>
             <td colspan="4" align="center"><? if ($show_msg) echo $message;  ?></td>
-        </tr>      
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><i><input type="submit" id=buttonstyle name="submitInstructor" value="Save" /></td>
+            <td colspan="2" align="center"><i><input type="submit" id=buttonstyle name="seeClassHistory" value="See Class History" /></td>
+        </tr>
+        
         <tr>
             <td></td>
-            <td align="center" valign="bottom" ><p><a href="instructorDB_top.php" target="_self">Return to top</a></td>
-            <td align="center" valign="bottom" ><p><a href="instructor_list.php" target="_self">Return to Instructor List</a></td>
+            <td align="center" valign="bottom" ><p><a href="instructorDB_top.php" target="_self" >Return to top</a></td>
+            <td align="center" valign="bottom" ><p><a href="instructor_list.php" target="_self" >Return to Instructor List</a></td>
             <td></td>
         </tr>
     </table>
